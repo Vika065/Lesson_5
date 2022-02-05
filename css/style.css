@@ -1,0 +1,111 @@
+@import "null.css";
+
+/* Основной текс + h4 */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+/* Только h1 */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* h2 и h3 + footer */
+@font-face {
+	font-family: "ComforterBrush";
+	src: url("../fonts/ComforterBrush-Regular.woff2") format("woff2"),
+		url("../fonts/ComforterBrush-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 15px 25px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Amatic SC", sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	color: rgb(67, 10, 105);
+	text-align: justify;
+	line-height: 1.1;
+	text-indent: 15px;
+}
+
+h1 {
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 50px;
+	color: rgb(115, 26, 199);
+	text-align: center;
+	text-indent: 0px;
+	padding-bottom: 50px;
+	text-shadow: 5px 5px 10px rgb(67, 10, 105), 10px 10px 5px rgb(255, 0, 255);
+}
+
+h2,
+h3,
+.menu,
+.footer {
+	font-family: "ComforterBrush", sans-serif;
+	text-shadow: 5px 5px 10px rebeccapurple;
+}
+
+h2 {
+	font-size: 50px;
+	text-align: center;
+	text-indent: 0px;
+	color: rgb(115, 26, 199);
+}
+h3 {
+	color: rgb(211, 66, 211);
+	text-indent: 50px;
+	font-size: 40px;
+}
+h4 {
+	font-size: 35px;
+	text-decoration: underline;
+	color: rgb(211, 66, 211);
+}
+
+nav p {
+	font-size: 35px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+span {
+	font-weight: bold;
+	color: rgb(161, 84, 233);
+}
+
+.heroes {
+	color: darkmagenta;
+	text-shadow: 5px -5px 5px rgba(145, 27, 168, 0.644);
+}
+
+.chapter1__1 ul li {
+	font-weight: bold;
+	color: rgb(124, 18, 124);
+}
+
+.center {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	min-height: 50px;
+	padding-top: 15px;
+	margin-top: 10px;
+}
+
+.main {
+	padding: 50px 60px;
+}
+
+p {
+	padding: 10px 0;
+}
+header {
+	padding: 10px 15px;
+}
